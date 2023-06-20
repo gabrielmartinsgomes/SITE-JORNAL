@@ -41,28 +41,28 @@ div#jogos{
 }
 .slider {
     display: block;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 200px;
     margin: auto;
-    margin-top: 0px;
+    margin-top: 10px;
     position: relative;
 }
 
-.slider > li {
+.slider li {
     list-style: none;
     position: absolute;
 }
 
-.slider > img {
+.slider img {
     margin: auto;
     height: 100%;
     width: 100%;
     vertical-align: top;
 }
-.slider > input {
+.slider input {
     display: none;
 }
-.slider > label {
+.slider label {
     background-color: #000;
     bottom: 10px;
     cursor: pointer;
@@ -73,15 +73,15 @@ div#jogos{
     z-index: 10;
 }
 
-.slider > li:nth-child(1) label {
+.slider li:nth-child(1) label {
     left: 10px;
 }
 
-.slider > li:nth-child(2) label {
+.slider li:nth-child(2) label {
     left: 40px;
 }
 
-.slider > li:nth-child(3) label {
+.slider li:nth-child(3) label {
     left: 70px;
 }
 .slider img {

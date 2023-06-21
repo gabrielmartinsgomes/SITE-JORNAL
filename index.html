@@ -7,28 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TIUTLOJORNALTEMA</title>
     <link rel="stylesheet" href="style-main.css">
+    <link rel="stylesheet" href="carrosel.css">
 
 </head>
 
 <body>
-    
+    <div class="container">
+        <button class="esquerda control"  aria-label="Imagem Anterior" ></button>
+        <button class="direita control" aria-label="Imagem Sucessor"></button>
+        <div class="img-puxador">
+            <div class="img">
+                <img src="img/cuphead-banner.jpeg" alt="Cabeça de Xícara" class="item img-atual">
+                <img src="img/hollow-knight.webp" alt="Cavaleiro Vazio" class="item">
+                <img src="img/minecraft-HERO.webp" alt="Minere&Construa" class="item">
+                <img src="img/undertale-banner1.png" alt="Conto do Subsolo" class="item">
+            </div>
+        </div>
 
-    <div class="coluna">
-        <ul class="slider">
-            <li> <input type="radio" id="imagem1" name="imagem" checked>
-                <label for="imagem1"></label>
-                <img src="img/hollow-knight.webp">
-            </li>
-    
-            <li> <input type="radio" id="imagem2" name="imagem">
-                <label for="imagem2"></label>
-                <img src="img/minecraft-HERO.webp">
-            </li>
-            <li><input type="radio" id="imagem3" name="imagem">
-                <label for="imagem3"></label>
-                <img src="img/cuphead-banner.jpeg">
-            </li>
-        </ul>
+    </div>
         <div id="title">
             <h1 id=>Texto sobre ALGOO</h1>
         </div>
@@ -39,6 +35,7 @@
         </div>
 
     </div>
+    <script src="carrosel.js"></script>
 
 </body>
 

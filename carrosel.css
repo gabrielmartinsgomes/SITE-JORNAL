@@ -50,7 +50,7 @@
     opacity: 1;
 }
 .item {
-    width: 250px;
+    width: 450px;
     height: 250px;
     flex-shrink: 0;
     opacity: 0.6;
@@ -58,5 +58,6 @@
 }
 .img-atual{
     opacity: 1;
+    border: 3px solid #8C0303;
 }
 

@@ -12,7 +12,7 @@
   }
 
   :root{
-    --cor-principal: #0D0D0D;
+    --cor-principal: #D90416;
     --cor-texto: #ffffff;
     --fonte-legal: 'Lora' , serif;
 }
@@ -23,17 +23,16 @@
   }
   
   body {
-  background-color: #000000;
   height: 100vh;
   background-color: var(--cor-principal);
   color: var(--cor-texto);
   font-family: var(--fonte-legal);
+  background-image: url(img/giphy.gif);
   }
   
   main {
-  background-color: white;
-  box-shadow: 20px 20px #8bbad1;
-  border: black;
+  background-color: #163440;
+  box-shadow: 20px 20px #031926;
   margin: 0px 70px 20px 70px;
   }
   
@@ -71,6 +70,13 @@
   align-items: center;
   gap: .5rem;
   }
+  #img-header {
+    align-items: center;
+    height: 150%;
+    width: 30%;
+
+  }
+
   
   /* Botão da Navegação */ 
   
@@ -160,14 +166,12 @@
 
 }
 .itens {
-    border: 1px solid #D90416;
     min-height: 100px;
 
 }
 #title {
-    font-size: 32px;
+    font-size: 35px;
     text-align: center;
-    background-color: #0D0D0D;
 
 }
 div#title{
@@ -175,7 +179,28 @@ div#title{
 }
 div#jogos{
     grid-column: 1;
+    text-align: justify;
 }
 .containerDois{
     display: flex;
+}
+#giphy{
+  width:100%;
+  height:0;
+  padding-bottom:100%;
+  position:relative;
+}
+#indie {
+  font-size: 25px;
+  text-align: left;
+  background-color: #015958;
+}
+#introducao{
+  height: calc(100vh - 70px);
+}
+.pergunta{
+  font-size: 50px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  color: #212121;
 }

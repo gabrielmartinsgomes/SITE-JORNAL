@@ -58,6 +58,7 @@
 }
 .img-atual{
     opacity: 1;
-    border: 3px solid #8C0303;
+    border: 3px solid #008F8C;
+    border-radius: 3px;
 }
 

@@ -86,7 +86,7 @@
     text-align: center;
     gap: .5rem;
     letter-spacing: 2.5px;
-    position: absolute;
+    position:absolute;
     width: 100%;
     top: 70px;
     right: 0px;
@@ -124,7 +124,7 @@
   }
   
   #hamburger {
-  border-top: 2px solid;
+  border-top: 2px solid white;
   width: 20px;
   }
   
@@ -204,3 +204,4 @@ div#jogos{
   padding-bottom: 20px;
   color: #212121;
 }
+

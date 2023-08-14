@@ -12,7 +12,7 @@
   }
 
   :root{
-    --cor-principal: #D90416;
+    --cor-principal: #163440;
     --cor-texto: #ffffff;
     --fonte-legal: 'Lora' , serif;
 }
@@ -34,6 +34,7 @@
   background-color: #163440;
   box-shadow: 20px 20px #031926;
   margin: 0px 70px 20px 70px;
+  padding: 10px 5%;
   }
   
   
@@ -109,7 +110,7 @@
   
   #nav.active #menu {
   display: block;
-  height: calc(100vh - 70px);
+  height: calc(50vh - 70px);
   visibility: visible;
   overflow-y: auto;
   }
@@ -179,7 +180,8 @@ div#title{
 }
 div#jogos{
     grid-column: 1;
-    text-align: justify;
+    text-align: center;
+    font-size: 20px;
 }
 .containerDois{
     display: flex;
@@ -191,17 +193,27 @@ div#jogos{
   position:relative;
 }
 #indie {
-  font-size: 25px;
-  text-align: left;
+  font-size: 20px;
+  text-align: center;
   background-color: #015958;
+  
 }
-#introducao{
-  height: calc(100vh - 70px);
+#introducao,
+#section,
+#section2{
+  height: calc(100vh - 50vh);
+  border-bottom: 1px solid white;
 }
 .pergunta{
   font-size: 50px;
   padding-top: 100px;
   padding-bottom: 20px;
-  color: #212121;
+  color: #ffffff;
+  text-align: center;
 }
+.aga2{
+  text-align: left;
+  font-size: 35px;
+}
+
 

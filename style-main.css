@@ -31,7 +31,7 @@
   }
   
   main {
-  background-color: #163440;
+  background-color: var(--cor-principal);
   box-shadow: 20px 20px #031926;
   margin: 0px 70px 20px 70px;
   padding: 10px 5%;
@@ -51,7 +51,7 @@
   }
   
   #logo {
-  font-size: 1.5rem;
+    font-size: calc(1em + 1.5vw);
   font-weight: bold;
   }
   
@@ -171,7 +171,7 @@
 
 }
 #title {
-    font-size: 35px;
+  font-size: calc(1em + 2vw);
     text-align: center;
 
 }
@@ -201,8 +201,8 @@ div#jogos{
 #introducao,
 #section,
 #section2{
-  height: calc(100vh - 50vh);
-  border-bottom: 1px solid white;
+  font-size: calc(1em + 3vw);
+  border-bottom: 0.5vh solid white;
 }
 .pergunta{
   font-size: 50px;
